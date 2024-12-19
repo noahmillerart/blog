@@ -1,0 +1,349 @@
+/*
+Theme Name: Noah Miller Blog
+Theme URI: http://noastudio.space
+Description: Official Noah Miller Blog
+Author: Noah Miller
+Author URI: http://noahmiller.art
+Version: 1.5
+*/
+
+body{
+    background-color: white;
+}
+mark {
+    background-color: #E8E8E8;
+}
+hr{
+    color: darkgrey;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: midnightblue;
+}
+a:hover {
+	color: royalblue;
+}
+.attachment-thumbnail{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.small-text {
+    font-size: 12px;
+  }
+
+/* Header */
+
+#header a:link{
+    color: grey;
+}
+#header a:hover{
+    color: midnightblue;
+}
+.active {
+    font-weight: bold;
+    color: midnightblue;
+}
+
+/* Footer */
+
+#footer {
+    background-color: rgb(240, 240, 240);
+}
+#logobottom img{
+    width: 80px;
+    height: 36px;
+    opacity: 0.7;
+}
+#logobottom img:hover{
+    opacity: 1;
+}
+#footer ul{
+    list-style-type: none;
+}
+#footer li{
+    display: inline-block;
+}
+#footer a{
+    text-decoration: none;
+    color: grey;
+}
+#footer a:hover{
+    color: black;
+}
+#socialmedia img{
+    opacity: 0.3;
+    width: 25px;
+    height: 25px;
+}
+#socialmedia img:hover{
+    opacity: 0.6;
+}
+
+/* Sidebar */
+
+.search-field{
+    width: 150px;
+}
+
+#comics p{
+    color: dimgrey;
+}
+#comics h1{
+    font-size: 20pt;
+}
+#comics img{
+    margin: 2%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    opacity: 0.7;
+    border: solid 1px #575757;
+}
+#comics img:hover{
+    opacity: 1;
+}
+
+#thoughts {
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+}
+#thoughts p{
+    color: dimgrey;
+    font-size: small;
+}
+#thoughts h2{
+    font-size: medium;
+}
+
+#thoughts h1{
+    font-size: 20pt;
+}
+
+#bio {
+    color: midnightblue;
+    border-style: solid;
+    border-color: rgb(209, 209, 209);
+    border-radius: 5px;
+    border-width: 1px;
+}
+#bio a{
+	color: midnightblue;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+}
+#bio a:hover{
+    color: royalblue;
+}
+
+.sociallinks img{
+	width: 30px;
+	height: auto;
+	opacity: 0.6;
+}
+
+.sociallinks img:hover{
+	opacity: 1;
+}
+
+#illustrations h1{
+    font-size: 20pt;
+}
+#illustrations img{
+    margin: 2%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    opacity: 0.7;
+    border: solid 1px #575757;
+}
+#illustrations img:hover{
+    opacity: 1;
+}
+
+#archives h1{
+    font-size: 20pt;
+}
+#archives ul{
+    list-style-type: none;
+}
+#archives li{
+    display: inline-block;
+    padding: 2%;
+}
+#archives li:hover{
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+}
+
+#knowmore {
+    border-style: solid;
+    border-color: rgb(209, 209, 209);
+    border-radius: 5px;
+    border-width: 1px;
+    color: grey;
+}
+
+.logosigned {
+    width: 80px;
+    height: 23px;
+    opacity: 0.7;
+}
+.tag-cloud{
+    background-color: rgb(240, 240, 240);
+    border-radius: 5px;
+}
+.tag-cloud a:link, .tag-cloud a:visited{
+    text-decoration: none;
+    color: rgb(172, 172, 172);
+}
+.tag-cloud a:hover{
+    color: midnightblue;
+}
+#tagresult {
+    border: 1px;
+    border-color: rgb(240, 240, 240);
+    border-radius: 5px;
+    border-style: solid;
+}
+#tagresult:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+/* Content */
+
+#pagination {
+    color: black;
+    font-size: large;
+}
+#pagination a{
+    text-decoration: none;
+}
+#pagination a:hover{
+    color: midnightblue;
+}
+.current {
+    font-weight: bold;
+    color: midnightblue;
+}
+
+#archived a{
+    text-decoration: none;
+    color: black;
+}
+#excerpt_arch a{
+    text-decoration: none;
+    font-weight: bold;
+}
+#excerpt_arch a:hover{
+    color: midnightblue;
+}
+
+#thumbnail {
+    width: 100px;
+}
+
+#thumb ul{
+    list-style-type: none;
+}
+#thumb li{
+    display: inline-block;
+}
+
+#result h1{
+    font-size: 20pt;
+}
+#result {
+    font-size: small;
+}
+
+#searchresult a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+}
+#searchresult a:hover{
+    color: midnightblue;
+}
+#searchtitle a{
+    text-decoration: none;
+    color: black;
+}
+
+#authorname {
+    text-align: right;
+}
+
+.share-links a{
+    text-decoration: none;
+}
+.share-links a:hover{
+    color: midnightblue;
+}
+
+.share-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.share-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.share-links li:last-child {
+    margin-right: 0;
+}
+
+.post-tags ul{
+    list-style: none;
+}
+.post-tags li{
+    display: inline-block;
+}
+.post-tags a{
+    text-decoration: none;
+}
+.post-tags a:hover{
+    color: midnightblue;
+}
+
+/* Page */
+
+#comicspage a{
+    text-decoration: none;
+    color: black;
+}
+
+.gallery ul{
+    list-style: none;
+}
+.gallery li{
+    display: inline-block;
+    padding: 2px;
+}
+.gallery img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    opacity: 0.7;
+	border: 1px solid;
+	border-color: #ddd;
+}
+
+.gallery img:hover{
+    opacity: 1;
+}
+
+#homeposts a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 767px) {
+    .gallery img {
+        width: 80px;
+        height: 80px;
+    }
+}

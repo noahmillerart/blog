@@ -1,0 +1,4 @@
+[10-Nov-2024 09:37:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home4/cjffvrmy/public_html/website_9336952a/wp-content/themes/noahmiller.art/404.php:1
+Stack trace:
+#0 {main}
+  thrown in /home4/cjffvrmy/public_html/website_9336952a/wp-content/themes/noahmiller.art/404.php on line 1
