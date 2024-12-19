@@ -1,6 +1,5 @@
 <div class="pb-4">
 
-
 	
     <div class="p-4" id="bio">			
 		
